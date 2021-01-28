@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class=" container">
+      <div class="signUpForms my-5 py-5 px-3 shadow-lg rounded-lg text-center">
+          <h1 class=" text-center text-info">Smart Login System</h1>
+        <div class="form-group">
+          <input type="text"  id="signUpName" class=" form-control bg-transparent text-white" placeholder="Enter Your Name..">  
+         <p class=" text-danger d-none" id="signUpNameAlert">please insert the first charcter capital and then small charcter without space maximum 15 charcter</p>
+        </div>
+        <div class="form-group ">
+            <input type="email"  id="signUpEmail" class=" form-control bg-transparent text-white"placeholder="Enter Your Email..">  
+            <p class=" text-danger d-none" id="signUpEmailAlert">please insert your name and  @ (gmail | yahoo).com</p>   
+        </div>  
+          <div class="form-group">
+            <input type="password"  id="signUpPassword" class=" form-control bg-transparent text-white"placeholder="Enter Your Password..">  
+            <p class=" text-danger d-none" id="signUpPasswordAlert">please insert your password without space and special charcter maximum 20 charcter</p>       
+        </div>
+          <div class=" form-group">
+              <button class=" btn btn-outline-info w-100" id="SignUpBtn">LogIn</button>
+          </div>
+          <span>You have an account?</span> <a href="log-in.html" class="text-info">SignIn</a>   
+      </div>
+  </div>  
+  <script src="js/script.js"></script>  
+</body>
+</html>

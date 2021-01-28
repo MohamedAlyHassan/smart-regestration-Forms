@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body class=" vh-100">
+    
+       <div class="row justify-content-between mt-2 shadow-lg p-3 mx-4 ">
+                   <h6>SMART LOGIN</h6>
+                   <button class=" btn btn-outline-warning"><a href="log-in.html" class="logoutBtn text-warning">Logout</a></button>
+                </div>
+                
+       <div class=" container">
+         <div class="row justify-content-center align-items-center mt-5 pt-5 shadow-lg pb-5">
+             <div class="welcomeItem" id="welcomeItem">
+                 <h1 id="currentUser"></h1>
+             </div>
+         </div>  
+       </div>
+
+  
+  <script>
+
+    var users =JSON.parse(localStorage.getItem("UserName"))
+    document.getElementById("currentUser").innerHTML="welcome  " + users.name
+  
+  </script>
+</body>
+</html>

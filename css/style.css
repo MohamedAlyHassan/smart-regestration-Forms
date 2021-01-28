@@ -1,0 +1,40 @@
+ body
+{
+font-family: 'Titillium Web', sans-serif;
+background-color: #24353f;
+color: white;
+}
+.signUpForms
+{
+    background-color: #24353f;
+}
+
+.signUpForms a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* .signUpContainer
+{
+    background-color: #24353f;
+}
+.signUpTitle
+{
+    color: #17a2b8;
+}
+.signUpContainer a
+{
+    color: white;
+} */ 
+
+.logoutBtn
+{
+    text-decoration: none;
+    
+
+}
+.loginContainer a
+{
+    text-decoration: none;
+}
